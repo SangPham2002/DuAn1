@@ -1,0 +1,33 @@
+#menu-btn2{
+  display: initial;
+  transition: all ease-in-out 0.25s;
+  
+}
+
+#menu-btn2 .fa-times{
+  transform:rotate(180deg);
+  transition: all ease-in-out 0.25s;
+}
+
+.menuAccount{
+    position: relative;
+  }
+.menuAccount .navbar2{
+    position: absolute;
+    top:85px; left:0; right:0;
+    background:#fff;
+    transition: all ease-in-out 0.3s;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+   
+  }
+  
+ .menuAccount .navbar2 ul li{
+    display: block;
+  
+  }
+  
+  
+.menuAccount .navbar2.active2{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: all ease-in-out 0.3s;
+  }

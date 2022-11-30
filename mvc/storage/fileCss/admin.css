@@ -1,0 +1,18 @@
+
+/* ------------------- */
+.don_hang{
+    /* border: 2px solid #3f3f3f; */
+     box-shadow: 3px 3px 4px 4px #b8b4b4;
+}
+
+.btn_thanh_toan{
+    padding: 5px 10px;
+    background-color: #F4A851;
+    transition: all ease-in-out 0.2s;
+    float: right;
+}
+.btn_thanh_toan:hover{
+    /* box-shadow: 1px 1px 2px 2px #b8b4b4; */
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+}
